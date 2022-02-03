@@ -13,7 +13,7 @@
     <header>
         <nav>
             <ul class="nav_links">
-                <img src="livre-ouvert.png" class="logo">
+                <img src="image/livre-ouvert.png" class="logo">
                 <?php session_start();
                 if (!isset($_SESSION['id'])) {
                     echo " <li><a href=\"html/inscription.php\">Inscription</a></li>";
@@ -44,8 +44,8 @@
     <footer>
         <div class="resaux">
             <ul class="social-icons">
-                <a href="https://github.com/Yassine-Fellous/module-connexion">
-                    <img class="git" src="github.png" alt="logo">
+                <a href="https://github.com/Yassine-Fellous/livre-or.git">
+                    <img class="git" src="image/github.png" alt="logo">
                 </a>
                 <ul>
         </div>
