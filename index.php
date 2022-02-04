@@ -24,7 +24,7 @@
                 <?php if (isset($_SESSION['id'])) {
                     echo " <li><a href=\"html/Sendcomm.php\">Postez sur livre</a></li>";
                 } ?>
-                <li><a href="hmtl/livreor.php">livre d'or</a></li>
+                <li><a href="html/livreor.php">livre d'or</a></li>
                 <?php if (isset($_SESSION['id'])) {
                     echo " <li><a href=\"html/profil.php\">Profil</a></li>";
                 } ?>
